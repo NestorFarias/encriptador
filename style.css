@@ -1,0 +1,92 @@
+header{
+    background-color: #b2e2a6;
+    padding: 1px 0;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.textos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 25px;
+}
+li{
+    display: inline-block;
+    background-color: #76aa68;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 2%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+textarea{
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Inter';
+    border: none;
+    cursor: pointer;
+}
+textarea:hover{
+    background: #d2eecb;
+}
+.input-texto{
+    color: #0A3871;
+}
+.mensaje{
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+}
+.botones{
+    display: inline-block;
+    text-align: center;
+}
+button{
+    transition: 1s all;
+    cursor: pointer; 
+}
+button:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+.encriptar {
+    margin: 0 20px;
+    padding: 10px;
+    background-color: orange;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.desencriptar {
+    font-size: 18px;
+    padding: 10px;
+    background-color: orange;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.copiar{
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Inter';
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+}
+.informacion {
+    margin: 15px 0;
+    font-size: 15px;
+}
